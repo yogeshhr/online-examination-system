@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login - Online Examination System</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+
+<div class="login-container">
+  <div class="login-card">
+    <h2>Login</h2>
+    <p class="subtitle">Access your examination dashboard</p>
+
+    <div class="role-toggle">
+      <button class="role-btn active" data-role="student">Student</button>
+      <button class="role-btn" data-role="admin">Admin</button>
+    </div>
+
+    <form id="loginForm">
+      <input type="email" placeholder="Email Address" required>
+      <input type="password" placeholder="Password" required>
+      <button type="submit" class="btn full">Login</button>
+    </form>
+
+    <p class="extra">Don't have an account? <a href="#">Register</a></p>
+  </div>
+</div>
+
+<script src="js/login.js"></script>
+</body>
+</html>

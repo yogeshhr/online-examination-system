@@ -66,10 +66,24 @@ nav ul li a:hover{
   align-items:center;
   justify-content:space-between;
   padding:80px 8%;
-  flex-wrap:wrap
+  gap:40px;
+  min-height:80vh;
 }
 
 .hero-text{max-width:520px}
+
+.hero-image{
+  flex:1;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.hero-image img{
+  width:420px;
+  max-width:100%;
+}
+
 
 .hero-text h1{
   font-size:42px;
