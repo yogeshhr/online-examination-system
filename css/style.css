@@ -165,25 +165,30 @@ nav {
 
 }
 
-/*about*/
+/*ABOUT SECTION*/
 
 .about {
   padding: 80px 8%;
+  background-color: #f3f4f6;
+}
+
+.about-container {
+  max-width: 800px;
+  margin: auto;
   text-align: center;
-  background-color: #f9fafb;
 }
 
 .about h2 {
   font-size: 32px;
   margin-bottom: 20px;
+  color: #111827;
 }
 
 .about p {
-  max-width: 600px;
-  margin: auto;
-  color: #555;
+  font-size: 18px;
+  color: #4b5563;
+  line-height: 1.6;
 }
-
 
 /*FOOTER*/
 
