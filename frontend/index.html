@@ -1,68 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Online Examination System</title>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <title>Online Examination System</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-<nav>
-  <div class="logo">ExamPortal</div>
-  <ul>
-    <li><a href="#">Home</a></li>
-    <li><a href="#features">Features</a></li>
-    <li><a href="#">About</a></li>
-    <li><a href="#">Contact</a></li>
-  </ul>
-  <a href="login.html" class="btn">Login</a>
-</nav>
+  <!--NAVBAR-->
 
-<section class="hero">
-  <div class="hero-text">
-    <h1>Smart Online Examination System</h1>
-    <p>Conduct exams digitally, evaluate automatically and get instant results. A fast, reliable and secure way for institutions and students.</p>
-    <div class="hero-buttons">
+  <nav>
+    <div class="logo">ExamPortal</div>
+
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+
+    <a href="login.html" class="btn">Login</a>
+  </nav>
+
+
+  <!--HERO SECTION-->
+
+  <section class="hero" id="home">
+
+    <div class="hero-text">
+      <h1>Smart Online Examination System</h1>
+      <p>
+        Conduct exams digitally, evaluate automatically and get instant results.
+        A fast and secure solution for institutions and students.
+      </p>
+
       <a href="login.html" class="btn">Get Started</a>
-      <a href="login.html" class="btn secondary-btn">Register</a>
-      <a href="#features" class="btn secondary-btn">Learn More</a>
     </div>
-  </div>
-  <img src="https://illustrations.popsy.co/gray/student-with-laptop.svg" alt="exam illustration">
-</section>
 
-<section class="features" id="features">
-  <h2>Key Features</h2>
-  <div class="cards">
-    <div class="card">
-      <div class="icon">⏱️</div>
-      <h3>Timed Exams</h3>
-      <p>Automatic countdown timer and auto submission after time completion.</p>
+    <div class="hero-image">
+      <img src="/frontend/images/Online_Examination_Illustration.svg" alt="Online Examination Illustration">
     </div>
-    <div class="card">
-      <div class="icon">📊</div>
-      <h3>Instant Results</h3>
-      <p>Students can view their scores immediately after submitting the exam.</p>
-    </div>
-    <div class="card">
-      <div class="icon">🗂️</div>
-      <h3>Question Bank</h3>
-      <p>Store, manage and reuse questions easily with categorized structure.</p>
-    </div>
-    <div class="card">
-      <div class="icon">🔒</div>
-      <h3>Secure Access</h3>
-      <p>Role based login system for students and administrators.</p>
-    </div>
-  </div>
-</section>
 
-<footer>
-  © 2026 Online Examination System | Developed for Academic Project
-</footer>
+  </section>
 
-<script src="js/main.js"></script>
+  <!--FEATURES SECTION-->
+
+  <section class="features" id="features">
+
+    <h2>Key Features</h2>
+
+    <div class="feature-container">
+
+      <div class="feature-card">
+        <div class="feature-icon">⏱️</div>
+        <h3>Timed Exams</h3>
+        <p>Automatic timer with auto submission when time ends.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">📊</div>
+        <h3>Instant Results</h3>
+        <p>Students can view their results immediately after submission.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">📚</div>
+        <h3>Question Bank</h3>
+        <p>Admin can create, store and manage exam questions easily.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">🔒</div>
+        <h3>Secure Login</h3>
+        <p>Role-based authentication system for students and admins.</p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!--FOOTER-->
+
+  <footer class="footer" id="contact">
+
+    <div class="footer-container">
+
+      <div class="footer-logo">
+        <h3>ExamPortal</h3>
+        <p>Smart Online Examination System for modern institutions.</p>
+      </div>
+
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Features</a></li>
+          <li><a href="login.html">Login</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <p>Email: support@examportal.com</p>
+        <p>Phone: +91 999** **239</p>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      © 2026 Online Examination System | Academic Project
+    </div>
+
+  </footer>
+
+  <script src="frontend/js/main.js"></script>
+
+
 </body>
-</html> 
+</html>
