@@ -165,6 +165,26 @@ nav {
 
 }
 
+/*about*/
+
+.about {
+  padding: 80px 8%;
+  text-align: center;
+  background-color: #f9fafb;
+}
+
+.about h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.about p {
+  max-width: 600px;
+  margin: auto;
+  color: #555;
+}
+
+
 /*FOOTER*/
 
 .footer {
