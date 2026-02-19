@@ -57,6 +57,16 @@ nav {
   width: 100%;
 }
 
+/*Active navbar link*/
+.nav-links a.active {
+  color: #4f46e5;
+  font-weight: 600;
+}
+
+.nav-links a.active::after {
+  width: 100%;
+}
+
 
 .btn {
   background-color: #4f46e5;
