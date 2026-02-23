@@ -1,0 +1,53 @@
+/*EXAM PAGE*/
+
+.exam-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.exam-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.timer {
+  font-weight: bold;
+  color: #ef4444;
+}
+
+.question-box {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+  margin-bottom: 25px;
+}
+
+.question-number {
+  margin-bottom: 15px;
+  color: #6b7280;
+}
+
+.options {
+  margin-top: 20px;
+}
+
+.option-item {
+  margin-bottom: 10px;
+}
+
+.exam-navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.danger-btn {
+  background-color: #dc2626;
+}
+
+.danger-btn:hover {
+  background-color: #b91c1c;
+}
