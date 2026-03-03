@@ -56,3 +56,10 @@ form input{
   margin-top:15px;
   font-size:14px;
 }
+
+.error {
+  color: #dc2626;
+  font-size: 14px;
+  margin-top: 5px;
+  min-height: 18px;
+}
